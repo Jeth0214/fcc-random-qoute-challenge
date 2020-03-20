@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Qoute Machinery</title>
+    <title>Random Quote Machinery</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
         integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="qoute.css">
 </head>
-<body>
-    <div id="quote-box" class="bg">
-        <h1 id="text"></h1>
-        <div id="author"></div>
-        
-        <div class="buttons">
-            <div>
-                <a href="twitter.com/intent/tweet" target="_blank"  id="tweet-quote"><i class="fab fa-twitter-square fa-4x bg"></i></a>
-                <a href="https://www.tumblr.com" target="_blank"><i class="fab fa-tumblr-square fa-4x bg"></i></a>
-            </div>
-            <div>
-                <button id="new-quote" class="bg">New Qoute</button>
+
+<body class="bgRandomColor">
+    <div >
+        <div id="quote-box">
+            <div><h1 id="text" class="randomColor"></h1></div>
+            <div id="author" class="randomColor"></div>
+
+            <div class="buttons">
+                <div>
+                    <a href="twitter.com/intent/tweet" target="_blank" id="tweet-quote"><i
+                            class="fab fa-twitter bgRandomColor button"></i></a>
+                    <a href="https://www.tumblr.com" target="_blank"><i class="fab fa-tumblr  bgRandomColor button"></i></a>
+                </div>
+                <div>
+                    <button id="new-quote" class="bgRandomColor button">New Qoute</button>
+                </div>
             </div>
         </div>
-
         <div id="camper">
             <p><span>By</span> <a href="https://codepen.io/jeth0214/" target="_blank">Jeth0214</a></p>
         </div>
-        
     </div>
+
 
 
     <script src="qoute.js"></script>
@@ -34,4 +40,5 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
         integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
 </body>
+
 </html>
