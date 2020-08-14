@@ -1,68 +1,66 @@
 body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 #quote-box {
-    width: 50%;
-    background-color: #ffffff;
-    border-radius: 5px;
-    margin: 100px auto 10px;
-    padding: 25px;
-    line-height: 1;
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 100px auto 10px;
+  padding: 25px;
+  line-height: 1;
 }
 
-
-.bgRandomColor{
-    transition: background-color 0.6s;
-    -webkit-transition: background-color 0.6s;
-    -moz-transition: background-color 0.8s;
+.bgRandomColor {
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.6s;
+  -webkit-transition: background-color 0.6s;
+  -moz-transition: background-color 0.8s;
 }
 .quotation-mark {
-    font-size: 60px;
+  font-size: 60px;
 }
 #author {
-    text-align: end;
-    font-size: 20px;
-    margin-bottom: 20px;
+  text-align: end;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .buttons {
-    margin-top: 15px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
 }
 .fab {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .button {
-    padding: 10px 15px;
-    border-radius: 5px;
-    color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #ffffff;
 }
 
 button {
-    border: none;
-    background-color: transparent;
-    outline: none;
+  border: none;
+  background-color: transparent;
+  outline: none;
 }
 
 button:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 #camper {
-    text-align: center;
-    color: #ffffff;
+  text-align: center;
+  color: #ffffff;
 }
 
 #camper a {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
 }
-
-
-  
